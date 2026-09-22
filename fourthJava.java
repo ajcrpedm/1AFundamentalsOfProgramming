@@ -8,7 +8,7 @@ public class fourthJava {
 
             writer.write("This is the first line of text.");
             writer.newLine();
-            writer.write("This is the second vfdgrsline of text.");
+            writer.write("This is the second line of text.");
             writer.newLine();
             writer.write("BufferedWriter makes writing fast and efficient.");
             System.out.println("Data successfully written to the file!");

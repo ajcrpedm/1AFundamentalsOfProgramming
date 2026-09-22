@@ -10,5 +10,5 @@ public class thirdJava{
             name = dataIn.readLine();
         }catch(IOException e){
             System.out.println("Error!");}
-                System.out.println("Hello, " + name + "!");}
-        }
+        System.out.println("Hello, " + name + "!");}
+}
