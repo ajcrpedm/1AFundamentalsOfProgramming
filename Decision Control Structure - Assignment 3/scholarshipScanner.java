@@ -16,7 +16,7 @@ public class scholarshipScanner {
 
         if (salary > 10000 || nsatScore < 90 || examScore < 85) {
             System.out.print("Sorry!\nApplication status: Rejected");
-        } else if (salary <= 3500 || nsatExamMean >= 91) {
+        } else if (salary <= 3500 && nsatExamMean >= 91) {
             System.out.print("Congratulations!\nApplicaion status: Accepted");
         } else {
             System.out.print("Please wait for your result!\nApplication status: Subjected for further study");
